@@ -1,0 +1,39 @@
+.stack-table {
+  display: grid;
+  gap: 16px;
+}
+
+.stack-table h2 {
+  margin: 0;
+}
+
+.stack-table-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: monospace;
+}
+
+.stack-table-table th,
+.stack-table-table td {
+  border: 1px solid #444;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+.stack-table-table th {
+  background: #111;
+  color: #eee;
+}
+
+.stack-table-terminal {
+  color: #ffb36b;
+}
+
+.stack-table-row-atual td {
+  background: rgba(124, 92, 255, 0.25);
+}
+
+.stack-table-row-final td {
+  background: #111;
+  font-weight: 700;
+}
