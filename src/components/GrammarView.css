@@ -1,0 +1,43 @@
+.grammar-view {
+  display: grid;
+  gap: 16px;
+}
+
+.grammar-view h2 {
+  margin: 0;
+}
+
+.grammar-view-rules {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.grammar-view-rule {
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+.grammar-view-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: monospace;
+}
+
+.grammar-view-table th,
+.grammar-view-table td {
+  border: 1px solid #444;
+  padding: 10px 8px;
+}
+
+.grammar-view-table th {
+  background: #111;
+  color: #eee;
+}
