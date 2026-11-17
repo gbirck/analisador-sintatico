@@ -1,0 +1,82 @@
+.syntax-analyzer {
+  display: grid;
+  gap: 18px;
+}
+
+.syntax-analyzer h2 {
+  margin: 0;
+}
+
+.syntax-analyzer-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.syntax-analyzer-input,
+.syntax-analyzer-button {
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+.syntax-analyzer-input {
+  flex: 1;
+  min-width: 220px;
+  padding: 10px 14px;
+  border: 1px solid #444;
+  background: #111;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.syntax-analyzer-input:focus {
+  outline: 2px solid #7c5cff;
+}
+
+.syntax-analyzer-button {
+  border: none;
+  padding: 0 18px;
+  background: #7c5cff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.syntax-analyzer-button:hover {
+  background: #5a3fff;
+}
+
+.syntax-analyzer-button-secondary {
+  background: #333;
+}
+
+.syntax-analyzer-button-secondary:hover {
+  background: #444;
+}
+
+.syntax-analyzer-message {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.syntax-analyzer-message-ok {
+  background: rgba(77, 255, 136, 0.15);
+  color: #4dff88;
+}
+
+.syntax-analyzer-message-error {
+  background: rgba(255, 77, 77, 0.15);
+  color: #ff8a8a;
+}
+
+@media (max-width: 640px) {
+  .syntax-analyzer-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
